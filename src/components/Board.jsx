@@ -108,7 +108,7 @@ const Board = () => {
           <h1
             className="md:leading-tight font-bold text-4xl my-8 text-center text-transparent bg-clip-text bg-gradient-to-r
                           from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 transition duration-500
-                          transform hover:-translate-y-1 hover:scale-110 md:text-3xl max-sm:leading-tight"
+                          transform hover:-translate-y-1 hover:scale-110 md:text-3xl xs:leading-tight"
             style={{ textShadow: "1px 1px 1px rgba(0, 0, 0, 0.1)" }}
           >
             Juego de Memoria

@@ -1,52 +1,63 @@
+import discord from './assets/discord.png'
+import facebook from './assets/facebook.png'
+import google_duo from './assets/google_duo.png'
+import google from './assets/google.png'
+import instagram from './assets/instagram.png'
+import linkedin from './assets/linkedin.png'
+import messenger from './assets/messenger.png'
+import netflix from './assets/netflix.png'
+import spotify from './assets/spotify.png'
+import whatsapp from './assets/whatsapp.png'
+
 export const imgs = [
     {
         id: 1,
-        img: '/img/discord.png',
+        img: discord,
         alt: 'discord'
     },
     {
         id: 2,
-        img: '/img/facebook.png',
+        img: facebook,
         alt: 'facebook'
     },
     {
         id: 3,
-        img: '/img/google_duo.png',
-        alt: 'google'
+        img: google_duo,
+        alt: 'google_chat'
     },
     {
         id: 4,
-        img: '/img/google.png',
+        img: google,
         alt: 'google'
     },
     {
         id: 5,
-        img: '/img/instagram.png',
+        img: instagram,
         alt: 'instagram'
     },
     {
         id: 6,
-        img: '/img/linkedin.png',
+        img: linkedin,
         alt: 'linkedin'
     },
     {
         id: 7,
-        img: '/img/messenger.png',
+        img: messenger,
         alt: 'messenger'
     },
     {
         id: 8,
-        img: '/img/netflix.png',
+        img: netflix,
         alt: 'netflix'
     },
     {
         id: 9,
-        img: '/img/spotify.png',
+        img: spotify,
         alt: 'spotify'
     },
     {
         id: 10,
-        img: '/img/whatsapp.png',
+        img: whatsapp,
         alt: 'Whatsapp'
     },
 ]

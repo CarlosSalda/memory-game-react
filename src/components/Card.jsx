@@ -18,7 +18,7 @@ const Card = ({ card, handleCardClick }) => {
       className={`drop-shadow-md flex items-center justify-center cursor-pointer  hover:scale-105 
                    hover:border-red-500 hover:border hover:bg-blue-200
                      rounded-xl transition-all duration-1000 ${styleMovement()}
-                     md:h-12 md:w-12 lg:h-16 lg:w-16`}
+                      sm:h-24 sm:w-24`}
       onClick={() => handleCardClick(card.id)}
     >
       <div>
